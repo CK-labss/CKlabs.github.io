@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CK Labs — STEM for Everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+  <!-- ── NAV ── -->
+  <nav>
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-icon">⚗️</span>
+      CK<span>Labs</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- ── HERO ── -->
+  <section id="home">
+    <canvas id="hero-canvas"></canvas>
+    <h1 class="hero-title">
+      Where Science<br>
+      <em>Belongs to You</em>
+    </h1>
+    <p class="hero-sub">CK Labs brings hands-on STEM education to learners of every age and background — no prerequisites, no barriers, just discovery.</p>
+    <div class="hero-cta">
+      <a href="#courses" class="btn-primary">Explore Courses</a>
+      <a href="#about" class="btn-ghost">Our Mission</a>
+    </div>
+  </section>
+ 
+  <!-- ── STATS ── -->
+  <div class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-number" data-target="1200">0</div>
+        <div class="stat-label">Students Taught</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-target="34">0</div>
+        <div class="stat-label">Active Courses</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-target="18">0</div>
+        <div class="stat-label">Expert Instructors</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-target="96">0</div>
+        <div class="stat-label">% Satisfaction Rate</div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ── COURSES + SCHEDULE ── -->
+  <section id="courses" class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">What We Offer</span>
+      <h2 class="section-title">Courses &amp;<br>Upcoming Events</h2>
+      <p class="section-desc">From introductory workshops to advanced lab sessions — find the program that fits where you are right now.</p>
+ 
+      <div class="courses-schedule-grid">
+        <div class="courses-list" id="courses-list"></div>
+        <div class="schedule-panel">
+          <div class="schedule-header" id="schedule-header">Upcoming Events</div>
+          <div class="schedule-list" id="schedule-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">Our Story</span>
+      <h2 class="section-title">Built by Educators,<br>For Everyone</h2>
+ 
+      <div class="about-grid">
+        <div class="about-text">
+          <p>CK Labs was founded on the conviction that great science education shouldn't be gated behind tuition fees or geography. We started as a weekend workshop in a shared community space and have grown into a full curriculum provider trusted by schools, families, and adult learners across the region.</p>
+          <p>Every course we design begins with a simple question: what does it actually feel like to think like a scientist? That means real equipment, real data, and instructors who are working professionals in their fields — not just teachers reading from a textbook.</p>
+          <p>We partner with local schools, libraries, and community centers to extend our reach, and we offer sliding-scale pricing and full scholarships to ensure no motivated learner is turned away.</p>
+        </div>
+        <div>
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-photo-placeholder accent-bg-1 c-cyan">CK</div>
+              <div class="team-body">
+                <div class="team-name">Dr. Clara Kim</div>
+                <div class="team-role">Founder &amp; Director</div>
+                <div class="team-bio">Molecular biologist turned educator, Clara launched CK Labs after a decade in research to make science accessible beyond the university lab.</div>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-photo-placeholder accent-bg-3 c-purple">MR</div>
+              <div class="team-body">
+                <div class="team-name">Marcus Reed</div>
+                <div class="team-role">Head of Curriculum</div>
+                <div class="team-bio">Former high school physics teacher and curriculum designer. Marcus builds every course around the question: what would a real scientist do first?</div>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-photo-placeholder accent-bg-2 c-cyan">ST</div>
+              <div class="team-body">
+                <div class="team-name">Sofia Torres</div>
+                <div class="team-role">Lab Operations</div>
+                <div class="team-bio">Chemical engineer with a passion for safety and logistics. Sofia keeps every lab running smoothly and ensures students always have what they need.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="values-row">
+        <div class="value-item">
+          <div class="value-title">Access First</div>
+          <div class="value-desc">We design for the learner who has been told science isn't for them. Every program has a free or subsidized path in.</div>
+        </div>
+        <div class="value-item">
+          <div class="value-title">Hands-on Always</div>
+          <div class="value-desc">Lectures support experiments, not the other way around. If you can touch it, measure it, or break it safely — you will.</div>
+        </div>
+        <div class="value-item">
+          <div class="value-title">Community Rooted</div>
+          <div class="value-desc">We hire locally, partner locally, and tailor content to questions our own neighbors are actually asking.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <a href="#home" class="footer-logo">
+        <span class="footer-logo-icon">⚗️</span>
+        CK<span>Labs</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="mailto:hello@cklabs.org">Contact</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 CK Labs. All rights reserved. · Making science public, one lab at a time.</p>
+    </div>
+  </footer>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
