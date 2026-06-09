@@ -1,19 +1,10 @@
 // ── DEFAULT DATA ────────────────────────────────────────────────────────────
 const DEFAULT_COURSES = [
-  { id:1, icon:"🔬", bg:"accent-bg-1", c:"c-green",  name:"Introduction to Biology",       meta:"8 weeks · All ages · In-person & Online", tag:"tag-green",  tagLabel:"Beginner"      },
-  { id:2, icon:"💡", bg:"accent-bg-3", c:"c-purple", name:"Physics of Everyday Things",    meta:"6 weeks · Ages 12+ · In-person",           tag:"tag-purple", tagLabel:"Intermediate"  },
-  { id:3, icon:"🧪", bg:"accent-bg-2", c:"c-blue",   name:"Chemistry Lab Fundamentals",    meta:"10 weeks · Ages 14+ · In-person",          tag:"tag-blue",   tagLabel:"Hands-on"      },
-  { id:4, icon:"🤖", bg:"accent-bg-4", c:"c-orange", name:"Robotics & Engineering Design", meta:"12 weeks · Ages 10+ · In-person",          tag:"tag-orange", tagLabel:"Project-based" },
-  { id:5, icon:"💻", bg:"accent-bg-1", c:"c-green",  name:"Coding for Scientists",         meta:"8 weeks · All ages · Online",              tag:"tag-green",  tagLabel:"Beginner"      },
+  { id:1, icon:"", bg:"accent-bg-1", c:"c-green",  name:"Introduction to Physics: Ancient Warfare",       meta:"8 weeks · All ages · In-person", tag:"tag-orange",  tagLabel:"Beginner"      },
 ];
  
 const DEFAULT_EVENTS = [
-  { id:1, day:"14", month:"Jun", name:"Open Lab Saturday",           detail:"10:00 AM – 1:00 PM · Main Campus",        badge:"tag-green",  badgeLabel:"Free"     },
-  { id:2, day:"19", month:"Jun", name:"Biology Course — Session 1",  detail:"6:00 PM – 8:00 PM · Lab B",               badge:"tag-blue",   badgeLabel:"Enroll"   },
-  { id:3, day:"25", month:"Jun", name:"Youth Robotics Workshop",     detail:"9:00 AM – 3:00 PM · Engineering Hall",    badge:"tag-orange", badgeLabel:"Ages 10+" },
-  { id:4, day:"03", month:"Jul", name:"Chemistry Demo Night",        detail:"7:00 PM – 9:00 PM · Auditorium",          badge:"tag-green",  badgeLabel:"Free"     },
-  { id:5, day:"10", month:"Jul", name:"Summer Coding Bootcamp",      detail:"10:00 AM – 4:00 PM · Online + In-person", badge:"tag-purple", badgeLabel:"Hybrid"   },
-  { id:6, day:"24", month:"Jul", name:"Physics Field Trip — Observatory", detail:"Departs 8:00 AM · Limited spots",   badge:"tag-orange", badgeLabel:"Register" },
+  { id:1, day:"TBD", month:"TBD", name:"Introduction to Physics: Ancient Warfare",           detail:"TBD",        badge:"tag-orange",  badgeLabel:"Free"     },
 ];
  
 // ── STORAGE ─────────────────────────────────────────────────────────────────
